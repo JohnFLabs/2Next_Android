@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CashTracker</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="user" translatable="false">Пользователь</string>
+    <string name="password" translatable="false">Пароль</string>
+    <string name="Login" translatable="false">Войти</string>
+    <string name="title_activity_page" translatable="false">page</string>
+    <string name="title_activity_docs_page" translatable="false">docs_page</string>
+
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_example" translatable="false">Example action</string>
+    <string name="start_page_app_title" translatable="false">Сервис для учета и планирования корпоративных и семейных финансов</string>
+    <string name="Russian" translatable="false">Русский</string>
+    <string name="ChooseLang">Выберите язык</string>
+    <string name="Kazakh" translatable="false">Қазақ</string>
+    <string name="Bulgarian" translatable="false">Български</string>
+    <string name="English" translatable="false">English</string>
+</resources>

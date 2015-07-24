@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".choose_lang_page"
+    android:background="#ffffff"
+    android:id="@+id/LogIn"
+    android:clickable="true">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Russian"
+        android:id="@+id/rus"
+        android:onClick="switchLang"
+        android:background="@color/buttons_color"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:fontFamily="Arial"
+        android:width="200dp"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/kaz"
+        android:layout_alignStart="@+id/kaz" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Kazakh"
+        android:id="@+id/kaz"
+        android:onClick="switchLang"
+        android:background="@color/buttons_color"
+        android:textColor="@color/white"
+        android:width="200dp"
+        android:clickable="true"
+        android:fontFamily="Arial"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/rus"
+        android:layout_alignLeft="@+id/eng"
+        android:layout_alignStart="@+id/eng" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/English"
+        android:id="@+id/eng"
+        android:onClick="switchLang"
+        android:background="@color/buttons_color"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:width="200dp"
+        android:fontFamily="Arial"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/kaz"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Bulgarian"
+        android:width="200dp"
+        android:id="@+id/bg"
+        android:onClick="switchLang"
+        android:background="@color/buttons_color"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:fontFamily="Arial"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/eng"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ChooseLang"
+        android:id="@+id/choose_lang_title"
+        android:layout_alignParentTop="true"
+        android:textSize="35sp"
+        android:textColor="#5668A8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test restprovider"
+        android:id="@+id/button"
+        android:onClick="testRestProvider"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/loginbtn"
+        android:layout_alignEnd="@+id/loginbtn"
+        android:layout_alignLeft="@+id/loginbtn"
+        android:layout_alignStart="@+id/loginbtn" /><\-->
+
+
+</RelativeLayout>
